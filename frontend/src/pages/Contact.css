@@ -1,0 +1,166 @@
+/* General Contact Page Styling */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Top Image with Overlay Text */
+  .contact-header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+  
+  .contact-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contact-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Main Content Layout */
+  .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 150px; /* Increased gap between form and contact info */
+  }
+  
+  /* Contact Form (Left Side) */
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  .contact-form h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form label {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form textarea {
+    height: 120px;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Contact Info (Right Side) */
+  .contact-info-container {
+    flex: 1;
+    min-width: 320px;
+    max-width: 500px;
+    background: #f8f9fa; /* Light grey background */
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  
+  /* Google Maps */
+  .contact-map {
+    margin-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  /* Footer */
+  .contact-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: auto;
+  }
+  
+  /* 📱 Responsive Design */
+  @media screen and (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-overlay {
+      font-size: 2rem;
+      left: 20px;
+    }
+  
+    .contact-info-container {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .contact-overlay {
+      font-size: 1.8rem;
+      padding: 8px 15px;
+    }
+  
+    .contact-form,
+    .contact-info-container {
+      text-align: center;
+    }
+  
+    .contact-form form {
+      text-align: left;
+    }
+  }
+  
