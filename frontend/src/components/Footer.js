@@ -10,9 +10,9 @@ const Footer = () => {
         <div className="footer-section address">
           <h3>Let's Get in Touch</h3>
           <p>
-            <strong>Head-Office:</strong> Ghaziabad, Uttar Pradesh <br />
-            Pacific Business Park, Block B, B-123, 124, First Floor, <br />
-            Sahibabad Industrial Area Site 4, Ghaziabad, UP - 201010
+            <strong>Head-Office:</strong> 123, Plot No 224, <br />
+            Ground Floor, Ashok Mansion, Kamlapuri Colony, Sri Nagar Colony, <br />
+            Hyderabad, Telangana, India, 500073.
           </p>
           <a
             href="https://maps.google.com/?q=Pacific+Business+Park+Ghaziabad"
@@ -24,8 +24,8 @@ const Footer = () => {
           </a>
 
           <p>
-            <strong>Branch Office:</strong> Gurgaon <br />
-            4th Floor, Plot No. 25, M3M SCO, Sector 113, Gurgaon - 122017
+            <strong>Branch Office:</strong> Hyderabad <br />
+            Sri Nagar Colony, Hyderabad, Telangana, India, 500073.
           </p>
           <a
             href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
