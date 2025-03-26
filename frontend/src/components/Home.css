@@ -241,8 +241,8 @@
 .experience-traders {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: center;
+  gap: 100px;
   padding: 50px 20px;
   background: #f9f9f9;
 }

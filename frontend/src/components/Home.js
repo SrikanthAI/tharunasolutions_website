@@ -51,8 +51,8 @@ function Home() {
       {/* About Section */}
       <section className="about">
         <div className="about-box">
-          <h2>Seeded In 2012</h2>
-          <p>HKKR GLOBAL was seeded by a group of Four Traders who crossed paths on a prominent trading platform.</p>
+          <h2>Seeded In 2023</h2>
+          <p>Tharuna Solutions was seeded by a group of Four Traders who crossed paths on a prominent trading platform.</p>
         </div>
         
         <div className="about-box">

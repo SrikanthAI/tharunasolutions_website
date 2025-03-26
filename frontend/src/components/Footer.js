@@ -14,7 +14,7 @@ const Footer = () => {
             Ground Floor, Ashok Mansion, Kamlapuri Colony, Sri Nagar Colony, <br />
             Hyderabad, Telangana, India, 500073.
           </p>
-          <a
+          {/*<a
             href="https://maps.google.com/?q=Pacific+Business+Park+Ghaziabad"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,15 +26,15 @@ const Footer = () => {
           <p>
             <strong>Branch Office:</strong> Hyderabad <br />
             Sri Nagar Colony, Hyderabad, Telangana, India, 500073.
-          </p>
-          <a
+          </p>*/}
+          {/*<a
             href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-direction"
           >
             GET DIRECTIONS
-          </a>
+          </a>*/}
         </div>
 
         {/* Online Assistance - Right Aligned */}
@@ -50,11 +50,11 @@ const Footer = () => {
               hr@tharunasolutions.com
             </a>
           </p>
-          <p>
-            <strong>CONTACT US:</strong> <br />
-            <a href="tel:+919718171010">+91-9718171010</a>,{" "}
-            <a href="tel:+919811320207">+91-9811320207</a>
-          </p>
+          {/* <p>
+            /<strong>CONTACT US:</strong> <br />
+            /<a href="tel:+919718171010">+91-9718171010</a>,{" "}
+            /<a href="tel:+919811320207">+91-9811320207</a>
+          </p> */}
 
           {/* Social Icons - Now Below Contact Info */}
           <div className="footer-socials">
