@@ -77,7 +77,7 @@ function Home() {
     </p>
     <div className="stats">
       <div className="stat-box">
-        <h3>2+</h3>
+        <h3>10+</h3>
         <p>Years of Experience</p>
       </div>
       <div className="stat-box">
