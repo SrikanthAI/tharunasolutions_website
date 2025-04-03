@@ -1,71 +1,96 @@
-/* About Page Container */
+/* About Page - Clean and Professional UI */
 .about-container {
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Header Image Section */
-  .about-header {
-    position: relative;
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
-  }
-  
-  .about-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.5);
-  }
-  
+  text-align: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  padding-bottom: 50px;
+}
+
+/* Header Section */
+.about-header {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background: linear-gradient(to right, #111, #444);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.overlay h1 {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Section Container */
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+/* Section Box */
+.about-section {
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.about-section p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .overlay h1 {
-    color: white;
-    font-size: 2.5rem;
-    font-weight: bold;
+      font-size: 2rem;
   }
-  
-  /* Sections Styling */
-  .about-content,
+
   .about-section {
-    padding: 50px 20px;
-    max-width: 900px;
-    margin: 0 auto;
+      width: 95%;
+      padding: 30px;
   }
-  
-  .about-content h2,
+
   .about-section h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
-    color: #333;
+      font-size: 1.8rem;
   }
-  
-  .about-content p,
+
   .about-section p {
-    font-size: 1.2rem;
-    color: #555;
+      font-size: 1rem;
   }
-  
-  /* Why Choose Us List */
-  .about-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .about-section li {
-    font-size: 1.2rem;
-    color: #333;
-    margin: 10px 0;
-  }
-  
+}
