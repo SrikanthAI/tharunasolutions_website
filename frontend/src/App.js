@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import KnowledgeCenter from "./pages/KnowledgeCenter";
 import Careers from "./pages/Careers";
+import JobDetails from "./pages/JobDetails";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
+        <Route path="/careers/:id" element={<JobDetails />} />
         <Route path="/Knowledge Center" element={<KnowledgeCenter />} />
       </Routes>
       <Footer />

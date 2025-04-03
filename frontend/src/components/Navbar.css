@@ -14,12 +14,25 @@
 /* Initially Transparent */
 .navbar {
   background-color: transparent;
+  color: black;  /* Make text black initially */
+  transition: background-color 0.5s ease-in-out, color 0.3s ease-in-out;
+}
+/* Ensure logo and links also appear dark */
+.navbar .logo .company-name,
+.navbar .nav-links a {
+  color: orange;  /* Make links black when transparent */
 }
 
 /* Change to Black when Scrolling */
 .navbar.scrolled {
   background-color: #1a1a1a;
+  color: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar.scrolled .logo .company-name,
+.navbar.scrolled .nav-links a {
+  color: white;
 }
 
 /* Logo and Company Name */

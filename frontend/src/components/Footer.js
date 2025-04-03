@@ -21,12 +21,13 @@ const Footer = () => {
             className="btn-direction"
           >
             GET DIRECTIONS
-          </a>
+          </a>*/}
 
           <p>
-            <strong>Branch Office:</strong> Hyderabad <br />
-            Sri Nagar Colony, Hyderabad, Telangana, India, 500073.
-          </p>*/}
+            <strong>Branch Office:</strong> H-140 <br />
+            3rd Floor, OFFICE NUMBER 302<br />
+            Sector 63, Noida, 201301
+          </p>
           {/*<a
             href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
             target="_blank"
