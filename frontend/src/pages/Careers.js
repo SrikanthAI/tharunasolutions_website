@@ -7,7 +7,7 @@ const jobOpenings = [
   {
     id: 1,
     title: "Stock Trader",
-    location: "Noida Sector 63",
+    location: "Noida Sector 63, Hyderabad",
     experience: "Minimum 6 months",
   },
 ];

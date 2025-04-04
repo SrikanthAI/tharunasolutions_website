@@ -47,8 +47,8 @@ const Footer = () => {
               Operations@tharunasolutions.com
             </a>
             <br />
-            <a href="mailto:hr@tharunasolutions.com">
-              hr@tharunasolutions.com
+            <a href="mailto:hrops@tharunasolutions.com">
+              hrops@tharunasolutions.com
             </a>
           </p>
           {/* <p>
