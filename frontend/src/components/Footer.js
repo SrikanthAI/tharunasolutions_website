@@ -60,7 +60,7 @@ const Footer = () => {
           {/* Social Icons - Now Below Contact Info */}
           <div className="footer-socials">
             <a
-              href="https://www.linkedin.com/in/tharuna-solutions-b24741356"
+              href="https://www.linkedin.com/company/tharuna-solutions/people/"
               target="_blank"
               rel="noopener noreferrer"
             >
