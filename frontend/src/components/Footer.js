@@ -38,6 +38,18 @@ const Footer = () => {
           </a>*/}
         </div>
 
+
+        {/* Quick Links Section */}
+        <div className="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
+        </div>
+
         {/* Online Assistance - Right Aligned */}
         <div className="footer-section contact">
           <h3>Online Assist</h3>
