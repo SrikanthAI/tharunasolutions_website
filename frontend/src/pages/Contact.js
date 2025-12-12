@@ -46,7 +46,7 @@ function Contact() {
           <div className="contact-info">
             <h2>Contact Information</h2>
             <p><strong>Email:</strong> operations@tharunasolutions.com</p>
-            <p><strong>Phone:</strong> +91 7780592230</p>
+          {/*<p><strong>Phone:</strong> +91 7780592230</p>*/}
             <p><strong>Address:</strong> 123, Plot No 224, Ground Floor, Ashok Mansion, Kamlapuri Colony, Sri Nagar Colony, Hyderabad, Telangana, India, 500073.</p>
             
             {/* Google Maps */}
