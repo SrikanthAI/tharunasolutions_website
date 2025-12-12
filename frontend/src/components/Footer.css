@@ -29,6 +29,16 @@
   line-height: 1.6;
 }
 
+.footer-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #ff9900; /* Or any hover color you want */
+  text-decoration: underline;
+}
+
 .btn-direction {
   display: inline-block;
   color: #ff9900;

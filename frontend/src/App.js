@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import KnowledgeCenter from "./pages/KnowledgeCenter";
 import Careers from "./pages/Careers";
 
+
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
+
         <Route path="/Knowledge Center" element={<KnowledgeCenter />} />
       </Routes>
       <Footer />

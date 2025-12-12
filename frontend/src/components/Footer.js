@@ -21,12 +21,13 @@ const Footer = () => {
             className="btn-direction"
           >
             GET DIRECTIONS
-          </a>
+          </a>*/}
 
           <p>
-            <strong>Branch Office:</strong> Hyderabad <br />
-            Sri Nagar Colony, Hyderabad, Telangana, India, 500073.
-          </p>*/}
+            <strong>Branch Office:</strong> H-140 <br />
+            3rd Floor, OFFICE NUMBER 302<br />
+            Sector 63, Noida, 201301
+          </p>
           {/*<a
             href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
             target="_blank"
@@ -35,6 +36,18 @@ const Footer = () => {
           >
             GET DIRECTIONS
           </a>*/}
+        </div>
+
+
+        {/* Quick Links Section */}
+        <div className="footer-section links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/contact">Contact</a></li>
+          </ul>
         </div>
 
         {/* Online Assistance - Right Aligned */}
@@ -46,8 +59,8 @@ const Footer = () => {
               Operations@tharunasolutions.com
             </a>
             <br />
-            <a href="mailto:hr@tharunasolutions.com">
-              hr@tharunasolutions.com
+            <a href="mailto:hrops@tharunasolutions.com">
+              hrops@tharunasolutions.com
             </a>
           </p>
           {/* <p>
@@ -59,7 +72,7 @@ const Footer = () => {
           {/* Social Icons - Now Below Contact Info */}
           <div className="footer-socials">
             <a
-              href="https://www.linkedin.com/in/tharuna-solutions-b24741356"
+              href="https://www.linkedin.com/company/tharuna-solutions/people/"
               target="_blank"
               rel="noopener noreferrer"
             >
