@@ -6,11 +6,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        {/* =========================
-            ADDRESS
-        ========================== */}
+        {/* Address */}
         <div className="footer-section address">
-<<<<<<< HEAD
           <h3>Let’s Get in Touch</h3>
 
           <div className="address-block">
@@ -27,40 +24,9 @@ const Footer = () => {
               H-140, 3rd Floor, Office Number 302, Sector 63, Noida – 201301.
             </p>
           </div>
-=======
-          <h3>Let's Get in Touch</h3>
-          <p>
-            <strong>Head-Office:</strong> Door no.1-57/960/B <br />
-            Sri Rama Nagar Colony, Kondapur, Serilingampally, <br />
-            Ranga Reddy, Telangana, India, 500084.
-          </p>
-          {/*<a
-            href="https://maps.google.com/?q=Pacific+Business+Park+Ghaziabad"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-direction"
-          >
-            GET DIRECTIONS
-          </a>*/}
-
-          <p>
-            <strong>Branch Office:</strong>  H Block H-189 1th FLOOR  <br />
-            Sector 63, Noida, 201301
-          </p>
-          {/*<a
-            href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-direction"
-          >
-            GET DIRECTIONS
-          </a>*/}
->>>>>>> 7129e6e271cfdf31851e3edf65377b773391225b
         </div>
 
-        {/* =========================
-            QUICK LINKS
-        ========================== */}
+        {/* Links */}
         <div className="footer-section links">
           <h3>Quick Links</h3>
           <ul>
@@ -72,19 +38,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* =========================
-            CONTACT
-        ========================== */}
+        {/* Contact */}
         <div className="footer-section contact">
           <h3>Online Assist</h3>
 
           <div className="contact-info">
             <p><strong>Email Us:</strong></p>
-
-            <a href="mailto:Operations@tharunasolutions.com">
-              Operations@tharunasolutions.com
+            <a href="mailto:operations@tharunasolutions.com">
+              operations@tharunasolutions.com
             </a>
-
             <a href="mailto:hrops@tharunasolutions.com">
               hrops@tharunasolutions.com
             </a>
@@ -101,7 +63,7 @@ const Footer = () => {
             </a>
 
             <a
-              href="mailto:Operations@tharunasolutions.com"
+              href="mailto:operations@tharunasolutions.com"
               aria-label="Email"
             >
               <FaEnvelope size={26} />
@@ -110,13 +72,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* =========================
-          COPYRIGHT
-      ========================== */}
       <div className="footer-bottom">
-        <p>
-          © 2025 Tharuna Solutions LLP — Endless Possibilities With Trading
-        </p>
+        <p>© 2025 Tharuna Solutions LLP — Endless Possibilities With Trading</p>
       </div>
     </footer>
   );
