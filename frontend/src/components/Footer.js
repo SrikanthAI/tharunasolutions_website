@@ -10,6 +10,7 @@ const Footer = () => {
             ADDRESS
         ========================== */}
         <div className="footer-section address">
+<<<<<<< HEAD
           <h3>Let’s Get in Touch</h3>
 
           <div className="address-block">
@@ -26,6 +27,35 @@ const Footer = () => {
               H-140, 3rd Floor, Office Number 302, Sector 63, Noida – 201301.
             </p>
           </div>
+=======
+          <h3>Let's Get in Touch</h3>
+          <p>
+            <strong>Head-Office:</strong> Door no.1-57/960/B <br />
+            Sri Rama Nagar Colony, Kondapur, Serilingampally, <br />
+            Ranga Reddy, Telangana, India, 500084.
+          </p>
+          {/*<a
+            href="https://maps.google.com/?q=Pacific+Business+Park+Ghaziabad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-direction"
+          >
+            GET DIRECTIONS
+          </a>*/}
+
+          <p>
+            <strong>Branch Office:</strong>  H Block H-189 1th FLOOR  <br />
+            Sector 63, Noida, 201301
+          </p>
+          {/*<a
+            href="https://maps.google.com/?q=M3M+SCO+Sector+113+Gurgaon"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-direction"
+          >
+            GET DIRECTIONS
+          </a>*/}
+>>>>>>> 7129e6e271cfdf31851e3edf65377b773391225b
         </div>
 
         {/* =========================
