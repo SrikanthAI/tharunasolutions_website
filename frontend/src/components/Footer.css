@@ -1,76 +1,152 @@
+/* Ensure you have updated frontend/src/index.css with the global variables */
+
 .footer {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 40px 0;
+  /* Use the dark primary color for a professional look */
+  background-color: var(--color-primary-dark); 
+  color: var(--color-text-light);
+  padding: var(--spacing-lg) 0;
   position: relative;
+  /* Add a vibrant accent line at the top */
+  border-top: 3px solid var(--color-secondary-accent); 
 }
 
 .footer-container {
   display: flex;
   justify-content: space-between;
-  max-width: 1100px;
+  /* Max width centers content on large screens */
+  max-width: 1200px; 
   margin: 0 auto;
-  padding: 20px;
-  align-items: flex-start; /* Ensures top alignment */
+  padding: 0 var(--spacing-lg); 
+  flex-wrap: wrap; /* Allows stacking on smaller screens */
+  gap: var(--spacing-lg);
 }
 
 .footer-section {
-  width: 48%;
+  /* Distribute space: Address gets slightly more, Links/Contact split the rest */
+  flex-basis: 250px; 
+  flex-grow: 1;
+  text-align: left;
+}
+
+.footer-section.address {
+    flex-grow: 2; /* Make the address section wider */
+    max-width: 400px;
 }
 
 .footer-section h3 {
-  font-size: 1.5rem;
-  margin-bottom: 15px;
-  color: #ff9900;
+  font-size: 1.3rem;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-secondary-accent); /* Use vibrant accent for headings */
+  font-weight: 700;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1); /* Subtle underline */
+  padding-bottom: var(--spacing-sm);
 }
 
 .footer-section p {
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.6;
+  color: #B0BACC; /* Slightly muted light text color */
+  margin-bottom: var(--spacing-md);
+}
+
+.address-block {
+    margin-bottom: var(--spacing-md); /* Space between Head and Branch office */
+}
+/* Ensure the strong tag stands out */
+.address-block strong {
+    color: var(--color-text-light); 
+    display: block; /* Force strong tag to its own line for clarity */
+    margin-bottom: 4px;
+}
+
+/* Quick Links Styling */
+.footer-section.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section.links li {
+    margin-bottom: var(--spacing-sm);
 }
 
 .footer-section a {
-  color: white;
+  color: var(--color-text-light);
   text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  /* Apply display: block to links to make them easier to click */
+  display: block; 
 }
 
 .footer-section a:hover {
-  color: #ff9900; /* Or any hover color you want */
-  text-decoration: underline;
+  color: var(--color-secondary-accent); 
 }
 
-.btn-direction {
-  display: inline-block;
-  color: #ff9900;
-  font-weight: bold;
-  text-decoration: none;
-  margin-top: 10px;
+/* Specific styling for the email links */
+.footer-section.contact a {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
 }
 
-.btn-direction:hover {
-  text-decoration: underline;
-}
-
-/* Social Icons Below Contact Info */
+/* Social Icons */
 .footer-socials {
-  margin-top: 20px;
+  margin-top: var(--spacing-lg);
   display: flex;
-  gap: 15px;
+  gap: var(--spacing-md);
+  align-items: center;
 }
 
 .footer-socials a {
-  color: white;
-  transition: color 0.3s ease;
+  color: var(--color-text-light);
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .footer-socials a:hover {
-  color: #ff9900;
+  color: var(--color-secondary-accent);
+  transform: translateY(-2px); /* Subtle lift effect */
 }
 
 /* Copyright Text Centered */
 .footer-bottom {
   text-align: center;
-  margin-top: 20px;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  padding-top: var(--spacing-lg);
+  margin-top: var(--spacing-lg);
+  border-top: 1px solid rgba(255, 255, 255, 0.1); 
+  font-size: 0.85rem;
+  color: #888; /* Soft gray for copyright text */
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: var(--spacing-lg) var(--spacing-md);
+    }
+
+    .footer-section {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom: var(--spacing-lg);
+        text-align: center; /* Center all text blocks on mobile */
+    }
+    
+    .footer-section.address {
+        flex-grow: 1; 
+    }
+
+    .footer-section h3 {
+        /* Remove the horizontal border line on mobile for a cleaner look */
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    
+    /* Center the social icons container on mobile */
+    .footer-socials {
+        justify-content: center;
+        margin-top: var(--spacing-md);
+    }
 }

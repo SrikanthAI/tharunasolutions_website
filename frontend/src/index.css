@@ -1,13 +1,64 @@
+/* Import a modern, technical-looking font (Inter is excellent for tech/finance) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* GLOBAL CSS VARIABLES FOR MODERN THEME */
+:root {
+  /* Core Palette */
+  --color-primary-dark: #1A202C; /* Deep Navy Blue (Authority, Backgrounds) */
+  --color-secondary-accent: #007BFF; /* Vibrant Blue (Buttons, Links, Highlights) */
+  --color-text-dark: #2D3748; /* Dark Gray for main content */
+  --color-text-light: #F9F9F9; /* Off-White for inverse text */
+  --color-background-light: #FFFFFF; /* Clean White/Off-White Background */
+  --color-border: #E2E8F0; /* Light border color */
+
+  /* Spacing (Base unit of 8px is modern standard) */
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 32px;
+}
+
+/* Global Reset and Body Styles */
+*, *::before, *::after {
+    /* Apply border-box globally for easier layout management */
+    box-sizing: border-box; 
+}
+  
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+  padding-top: 64px; /* MUST MATCH NAVBAR HEIGHT */
+
+  /* Use the imported Inter font, falling back to system fonts */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-background-light); /* Apply soft background */
+  color: var(--color-text-dark); /* Apply dark text color */
+  line-height: 1.6;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Base Headings Style (Start with the bold aesthetic) */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary-dark);
+  font-weight: 700; /* Use a bold weight for impact */
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Global Link Styling */
+a {
+    color: var(--color-secondary-accent);
+    text-decoration: none; /* Remove default underline */
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary-dark); /* Subtle hover effect */
 }
