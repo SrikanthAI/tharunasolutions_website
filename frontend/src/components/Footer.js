@@ -13,16 +13,16 @@ const Footer = () => {
 
           <div className="address-block">
             <p>
-              <strong>Head Office:</strong>{" "}
-              123, Plot No 224, Ground Floor, Ashok Mansion, Kamlapuri Colony,
-              Sri Nagar Colony, Hyderabad, Telangana, India – 500073.
+              <strong>Registered Office:</strong>{" "}
+              Door no.1-57/960/B, Sri Rama Nagar Colony, Kondapur,
+              Serilingampally, Ranga Reddy Telangana-500084 India.
             </p>
           </div>
 
           <div className="address-block">
             <p>
               <strong>Branch Office:</strong>{" "}
-              H-140, 3rd Floor, Office Number 302, Sector 63, Noida – 201301.
+              H Block H-189 1th FLOOR sector 63 Noida - 201301.
             </p>
           </div>
         </div>

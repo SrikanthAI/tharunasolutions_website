@@ -7,7 +7,8 @@
   left: 0;
   right: 0;
 
-  height: 64px; /* EXPLICIT HEIGHT */
+  height: 64px;
+  /* EXPLICIT HEIGHT */
   padding: 0 24px;
 
   display: flex;
@@ -92,12 +93,14 @@
   }
 
   .company-name {
-    display: none;
+    display: block;
+    font-size: 1rem;
   }
 
   .nav-links {
     position: absolute;
-    top: 64px; /* MATCH NAVBAR HEIGHT */
+    top: 64px;
+    /* MATCH NAVBAR HEIGHT */
     left: 0;
     width: 100%;
     background: var(--color-primary-dark);
