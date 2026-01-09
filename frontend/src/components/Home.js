@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { FaShieldAlt, FaLightbulb, FaStar } from "react-icons/fa";
 import "./Home.css";
 
@@ -102,9 +103,9 @@ function Home() {
             We combine cutting-edge technology and human ingenuity to solve the
             most complex challenges in financial markets.
           </p>
-          <a href="/about" className="btn">
+          <Link to="/about" className="btn">
             Discover Our Expertise
-          </a>
+          </Link>
         </div>
       </section>
 

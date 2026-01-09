@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.jpg";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);

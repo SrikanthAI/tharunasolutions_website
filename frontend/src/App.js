@@ -19,7 +19,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/careers" element={<Careers />} />
 
-        <Route path="/Knowledge Center" element={<KnowledgeCenter />} />
+        <Route path="/knowledge-center" element={<KnowledgeCenter />} />
       </Routes>
       <Footer />
     </Router>
