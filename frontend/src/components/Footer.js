@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="address-block">
             <p>
-              <strong>Branch Office:</strong>{" "}
+              <strong>Noida Office:</strong>{" "}
               H Block H-189 1th FLOOR sector 63 Noida - 201301.
             </p>
           </div>
