@@ -24,7 +24,7 @@ function Contact() {
       <div className="contact-header">
         <img
           src={contactImage}
-          alt="Contact Trade Sense"
+          alt="Contact Tharuna Solutions"
           className="contact-image"
         />
         <div className="contact-overlay">

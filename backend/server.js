@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-    res.send("Trade Sense Backend Running!");
+    res.send("Tharuna Solutions Backend Running!");
 });
 
 const PORT = process.env.PORT || 5000;

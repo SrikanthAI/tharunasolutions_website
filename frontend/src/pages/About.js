@@ -7,7 +7,7 @@ const aboutSections = [
     id: "who-we-are",
     title: "Who We Are",
     content:
-      "Trade Sense is a fintech startup revolutionizing financial markets with state-of-the-art trading systems and proprietary FPGA-powered solutions. With a strategic roadmap, we are developing high-performance trading algorithms designed for in-house proprietary trading, leveraging a capital of 100+ crore INR.",
+      "Tharuna Solutions is a fintech startup revolutionizing financial markets with state-of-the-art trading systems and proprietary FPGA-powered solutions. With a strategic roadmap, we are developing high-performance trading algorithms designed for in-house proprietary trading, leveraging a capital of 100+ crore INR.",
   },
   {
     id: "our-mission",
@@ -36,7 +36,7 @@ function About() {
       <div className="about-header">
         <img
           src={aboutImage}
-          alt="About Trade Sense"
+          alt="About Tharuna Solutions"
           className="about-image"
         />
         <div className="overlay">

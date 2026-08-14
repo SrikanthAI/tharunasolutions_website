@@ -114,7 +114,7 @@ function Home() {
         <div className="about-box">
           <h2>Seeded In 2023</h2>
           <p>
-            Trade Sense was seeded by a group of four seasoned traders who
+            Tharuna Solutions was seeded by a group of four seasoned traders who
             crossed paths on a prominent trading platform.
           </p>
         </div>
@@ -184,9 +184,9 @@ function Home() {
       {/* WORK LIFE */}
       <section className="work-life">
         <div className="work-life-text">
-          <h2>Work Life at Trade Sense</h2>
+          <h2>Work Life at Tharuna Solutions</h2>
           <p>
-            At Trade Sense, we create a dynamic and collaborative
+            At Tharuna Solutions, we create a dynamic and collaborative
             environment where innovation thrives. Our workplace encourages
             growth, teamwork, and a balance between professional and personal
             life.

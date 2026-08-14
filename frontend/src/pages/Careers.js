@@ -19,7 +19,7 @@ function Careers() {
       <div className="careers-hero">
         <img
           src={careersBanner}
-          alt="Careers at Trade Sense"
+          alt="Careers at Tharuna Solutions"
           className="careers-image"
         />
         <div className="careers-overlay">

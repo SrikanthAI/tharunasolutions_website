@@ -21,8 +21,8 @@ function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <Link to="/" className="logo" onClick={closeMenu}>
-        <img src={logo} alt="Trade Sense" className="logo-img" />
-        <span className="company-name">Trade Sense</span>
+        <img src={logo} alt="Tharuna Solutions" className="logo-img" />
+        <span className="company-name">Tharuna Solutions</span>
       </Link>
 
       <button
